@@ -1,0 +1,161 @@
+.students-page {
+  min-height: 100vh;
+  background-color: rgb(244, 246, 251);
+  padding: 32px 24px;
+}
+
+.students-header {
+  max-width: 1100px;
+  margin: 0 auto 24px;
+}
+
+.page-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(17, 24, 39);
+}
+
+.student-form {
+  max-width: 1100px;
+  margin: 0 auto 32px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr auto;
+  align-items: end;
+  background-color: rgb(255, 255, 255);
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  gap: 16px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgb(209, 213, 219);
+  max-width: 260px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-input:focus {
+  border-color: rgb(79, 70, 229);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+.form-actions {
+  grid-column: auto;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.primary-button {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  background-color: rgb(79, 70, 229);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.primary-button:hover {
+  background-color: rgb(67, 56, 202);
+  transform: translateY(-1px);
+}
+
+.secondary-button {
+  padding: 10px 18px;
+  color: rgb(55, 65, 81);
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid rgb(209, 213, 219);
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.2s ease;
+}
+
+.secondary-button:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+.student-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.student-card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.1);
+}
+
+.student-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: rgb(17, 24, 39);
+}
+
+.student-card p {
+  font-size: 0.9rem;
+  color: rgb(55, 65, 81);
+  margin-bottom: 4px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.edit-btn {
+  flex: 1;
+  padding: 8px;
+  color: rgb(55, 48, 163);
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(238, 242, 255);
+  transition: background-color 0.2s ease;
+}
+
+.edit-btn:hover {
+  background-color: rgb(224, 231, 255);
+}
+
+.delete-btn {
+  flex: 1;
+  padding: 8px;
+  color: rgb(185, 28, 28);
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(254, 242, 242);
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #fee2e2;
+}

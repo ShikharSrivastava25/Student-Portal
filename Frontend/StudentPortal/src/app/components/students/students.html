@@ -1,0 +1,62 @@
+<div class="students-page">
+  <div class="students-header">
+    <h2 class="page-title">Student Management</h2>
+  </div>
+
+  <form class="student-form" (ngSubmit)="saveStudent()">
+
+    <div class="form-row">
+      <input
+        type="text"
+        placeholder="Name"
+        [(ngModel)]="selectedStudent().name"
+        name="name"
+        class="form-input" />
+    </div>
+
+    <div class="form-row">
+      <input
+        type="text"
+        placeholder="Class"
+        [(ngModel)]="selectedStudent().class"
+        name="class"
+        class="form-input" />
+    </div>
+
+    <div class="form-row">
+      <input
+        type="text"
+        placeholder="Section"
+        [(ngModel)]="selectedStudent().section"
+        name="section"
+        required
+        class="form-input" />
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="primary-button">
+        {{ selectedStudent().id === 0 ? 'Add Student' : 'Update Student' }}
+      </button>
+
+      <button type="button" class="secondary-button" (click)="resetForm()">
+        Cancel
+      </button>
+    </div>
+  </form>
+
+  <div class="student-grid">
+    <div class="student-card" *ngFor="let s of students()">
+
+      <h3 class="student-name">{{ s.name }}</h3>
+
+      <p><strong>Class:</strong> {{ s.class }}</p>
+      <p><strong>Section:</strong> {{ s.section }}</p>
+
+      <div class="card-actions">
+        <button class="edit-btn" (click)="editStudent(s)">Edit</button>
+        <button class="delete-btn" (click)="deleteStudent(s.id)">Delete</button>
+      </div>
+
+    </div>
+  </div>
+</div>
