@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\KIIT\\Desktop\\Student\\Backend\\StudentApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|c:\\users\\kiit\\desktop\\student\\backend\\studentapi\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|c:\\users\\kiit\\desktop\\student\\backend\\studentapi\\studentapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|c:\\users\\kiit\\desktop\\student\\backend\\studentapi\\studentapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|c:\\users\\kiit\\desktop\\student\\backend\\studentapi\\studentapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|c:\\users\\kiit\\desktop\\student\\backend\\studentapi\\studentapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|c:\\users\\kiit\\desktop\\student\\backend\\studentapi\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C5FE982-07D1-A5C9-4C29-E21D5B88DF06}|StudentApi\\StudentApi.csproj|c:\\users\\kiit\\desktop\\student\\backend\\studentapi\\studentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Student\\Backend\\StudentApi\\StudentApi\\Program.cs",
               "RelativeDocumentMoniker": "StudentApi\\Program.cs",
               "ToolTip": "C:\\Users\\KIIT\\Desktop\\Student\\Backend\\StudentApi\\StudentApi\\Program.cs",
               "RelativeToolTip": "StudentApi\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAF8AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAEgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T15:19:34.612Z",
               "IsPinned": true,
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Student\\Backend\\StudentApi\\StudentApi\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "StudentApi\\Controllers\\StudentsController.cs",
@@ -76,23 +76,25 @@
               "RelativeToolTip": "StudentApi\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T15:43:49.07Z"
+              "WhenOpened": "2025-12-13T15:43:49.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Student\\Backend\\StudentApi\\StudentApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "StudentApi\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\KIIT\\Desktop\\Student\\Backend\\StudentApi\\StudentApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "StudentApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T15:32:12.927Z"
+              "WhenOpened": "2025-12-13T15:32:12.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\Student\\Backend\\StudentApi\\StudentApi\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentApi\\Models\\Student.cs",
@@ -100,7 +102,8 @@
               "RelativeToolTip": "StudentApi\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T15:30:08.471Z"
+              "WhenOpened": "2025-12-13T15:30:08.471Z",
+              "EditorCaption": ""
             }
           ]
         }
